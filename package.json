@@ -2,10 +2,10 @@
   "name": "habit-tracker",
   "version": "1.0.0",
   "description": "A simple habit tracking app based on NodeJS + EJS for user habit management on daily and weekly basis.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "dev": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
